@@ -1,0 +1,44 @@
+body {
+  font-size:25px;
+}
+
+a {
+  text-decoration-line:none;
+  color:#000000;
+}
+
+#tb1 {
+  text-align:center;
+}
+
+.tb {
+  border:5px solid gray;
+  display:inline-block;
+  text-align:center;
+  width:600px;
+  height:150px;
+  margin:0px auto;
+  background-color:#354232;
+  color:white;
+}
+
+div ul {
+  font-size:50px;
+  display:table;
+  margin-left:auto;
+  margin-right:auto;
+  line-height:150px;
+}
+
+@media(max-width:800px) {
+  .tb {
+    border:1px solid;
+    display:inline-block;
+    text-align:center;
+    width:500px;
+    height:150px;
+    margin:0px auto;
+    background-color:#000001;
+    color:white;
+  }
+}
